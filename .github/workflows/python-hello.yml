@@ -30,6 +30,8 @@ jobs:
             pip install -r requirements.txt
           fi
 
+- name: Run Python Program
+  run: python hello.py
       - name: Run Hello World
         run: |
           echo "Hello from GitHub Actions!"
